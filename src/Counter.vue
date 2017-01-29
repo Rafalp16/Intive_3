@@ -10,7 +10,7 @@
           <button class="counter__alert" @click="reset">RESET</button>
           <button class="counter__alert" @click="set">SET</button>
           <input class="counter__alert" type="text" v-model="val"/>
-          <button class="counter__alert" @click="$emit('test')">DELETE</button>
+          <button class="counter__alert" @click="$emit('remove')">DELETE</button>
         </div>
     </div>
 </template>

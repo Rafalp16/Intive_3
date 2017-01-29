@@ -3,7 +3,7 @@
   <div class="clearfix">
      <button class="counter_add" @click="add">Add</button>
   </div>
-   <counter v-for="(counter, index) in counters" :init-value="counter.value" :init-size="counter.size" :key="counter.id" @test="remove(index)"></counter>
+   <counter v-for="(counter, index) in counters" :init-value="counter.value" :init-size="counter.size" :key="counter.id" @remove="remove(index)"></counter>
   </div>
 </template>
 
